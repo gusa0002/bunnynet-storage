@@ -2,6 +2,13 @@
   "name": "bunnynet-storage",
   "version": "1.0.1",
   "description": "A Node.js library for simple interaction with BunnyCDN Storage",
+  "keywords": [
+    "bunny",
+    "cdn",
+    "bunnycdn",
+    "bunnynet",
+    "storage"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
