@@ -1,0 +1,11 @@
+{
+  "name": "bunnynet-storage",
+  "version": "1.0.0",
+  "description": "A Node.js library for simple interaction with BunnyCDN Storage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gusa0002",
+  "license": "ISC"
+}
