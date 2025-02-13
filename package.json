@@ -1,6 +1,6 @@
 {
   "name": "bunnynet-storage",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Node.js library for simple interaction with BunnyCDN Storage",
   "main": "index.js",
   "scripts": {

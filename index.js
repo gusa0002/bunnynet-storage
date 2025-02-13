@@ -88,7 +88,11 @@ const downloadFile = async ({accessKey, region, storageZoneName, fileName, local
             fileStream.write(value);
         }
         fileStream.end();
-        return {code: res.status, message: res.statusText, storageUrl: res.url};
+        if (res.status == 200) {
+            return {code: res.status, message: res.statusText, storageUrl: res.url};
+        }else {
+            throw { HttpCode: res.status, Message: res.statusText };
+        }
     } catch (error) {
         const handledError = checkTypeOfBadResponse({code:error?.HttpCode, message:error?.Message});
         return handledError;
