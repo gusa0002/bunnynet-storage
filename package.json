@@ -9,6 +9,7 @@
     "bunnynet",
     "storage"
   ],
+  "repository": "https://github.com/gusa0002/bunnynet-storage",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
